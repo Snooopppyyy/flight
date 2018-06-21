@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>2 испытание - Путь</title>
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+	<main class="bg-main">
+		<section class="sidebar">
+			<a class="close" href="#">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 69.32 69.32" class="close-svg"><defs><style>.cls-1{fill:#bebebf;}</style></defs><title>Ресурс 7</title><g id="Слой_2" data-name="Слой 2"><g id="Слой_1-2" data-name="Слой 1"><path class="cls-1" d="M47.39,34.66l19.3-19.3A9,9,0,1,0,54,2.64L34.66,21.93,15.36,2.64A9,9,0,0,0,2.64,15.36l19.29,19.3L2.64,54A9,9,0,0,0,15.36,66.69l19.3-19.3L54,66.69A9,9,0,1,0,66.69,54Z"></path></g></g></svg>
+			</a>
+			<div class="sidebar__wrapper">
+				<h1 class="sidebar__title">Второе испытание - Путь</h1>
+				<h2 class="sidebar__subtitle">описание задания</h2>
+				<p class="sidebar__text">
+					Во втором испытании вам предстоит продолжить изучать данные аэропортов. В этом задание вы узнаете, что аэропорт имеет еще несколько характеристик. Таких как ISO - код страны, код означающий страну прибытия. Код ICAO - код аэропорта в международной системе (состоит из 4 букв, например: UMMM - аэропорта Минска). И часовой пояс, время считается от Гринвича (например: +2.0 GMT - Greenwich Mean Time).
+				<p class="sidebar__text">Это продолжение вашего обучения вы вылетате из Ростова-на-Дону в Лос-Анджелес. В этом испытании вам предстоит познакомится с данными аэропорта</p>
+				</p>
+				<br>
+				<p class="sidebar__text">В левом вверхнем углу (под слоганом) есть надпись Список аэропортов аэропортов, и их данные. В течение всех испытаний вы будете пользоваться данными таблицами</p>
+			</div>
+		</section>
+		
+		<div class="wrapper-task">
+			<div class="title-task">
+				<h2 class="title-task__name">New home, new adventures!</h2>
+				<a href="#" class="airport_link">Список аэропортов</a>
+				<section class="airport_info">
+					<div class="airport">
+						<input class="toggle-box" id="identifier-1" type="checkbox">
+						<label for="identifier-1" class="table__name">Ростов-на-Дону (Платов)</label>
+						<table class="info__table">
+							<tr>
+								<td class="table__feature">Страна:</td>
+								<td class="table__value">Россия (Russian Federation)</td>
+							</tr>
+							<tr>
+								<td class="table__feature">ISO код страны:</td>
+								<td class="table__value">RU</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Город:</td>
+								<td class="table__value">Ростов (Rostov)</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Код IATA: </td>
+								<td class="table__value">ROV</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Код ICAO (ИКАО)</td>
+								<td class="table__value">URRR</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Часовой пояс:</td>
+								<td class="table__value">-2.0 GMT</td>
+							</tr>
+							<tr>
+								<td class="table__feature">ВПП (взлетно-посадочная полоса над уровнем моря):</td>
+								<td class="table__value">85 метров</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Широта:</td>
+								<td class="table__value">47°15′29″N</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Долгота:</td>
+								<td class="table__value">39°49′05″E</td>
+							</tr>
+						
+						</table>
+					</div>
+					<div class="airport">
+						<input class="toggle-box" id="identifier-2" type="checkbox">
+						<label for="identifier-2" class="table__name">Санкт-Петербург (Пулково)</label>
+						<table class="info__table">
+							<tr>
+								<td class="table__feature">Страна:</td>
+								<td class="table__value">Россия (Russian Federation)</td>
+							</tr>
+							<tr>
+								<td class="table__feature">ISO код страны:</td>
+								<td class="table__value">RU</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Город:</td>
+								<td class="table__value">Санкт-Петербург (St Petersburg)</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Код IATA:</td>
+								<td class="table__value">LED</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Код ICAO (ИКАО):</td>
+								<td class="table__value">ULLI</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Часовой пояс:</td>
+								<td class="table__value">+3.0 GMT</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Высота над уровнем моря:</td>
+								<td class="table__value">24 метра</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Широта:</td>
+								<td class="table__value">59°48′01″N</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Долгота:</td>
+								<td class="table__value">30°15′45″E</td>
+							</tr>
+						</table>
+					</div>
+					<div class="airport">
+						<input class="toggle-box" id="identifier-3" type="checkbox">
+						<label for="identifier-3" class="table__name">Москва (Шереметьево)</label>
+						<table class="info__table">
+							<tr>
+								<td class="table__feature">Страна:</td>
+								<td class="table__value">Россия (Russian Federation)</td>
+							</tr>
+							<tr>
+								<td class="table__feature">ISO код страны:</td>
+								<td class="table__value">RU</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Город:</td>
+								<td class="table__value">Москва (Moscow)</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Код IATA:</td>
+								<td class="table__value">SVO</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Код ICAO (ИКАО):</td>
+								<td class="table__value">UUEE</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Часовой пояс:</td>
+								<td class="table__value">+3.0 GMT</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Высота над уровнем моря:</td>
+								<td class="table__value">190 метров</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Широта:</td>
+								<td class="table__value">55°58′21″N</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Долгота:</td>
+								<td class="table__value">37°24′52″E</td>
+							</tr>
+						</table>
+					</div>
+					<div class="airport">
+						<input class="toggle-box" id="identifier-4" type="checkbox">
+						<label for="identifier-4" class="table__name">Прага (Рузине)</label>
+						<table class="info__table">
+							<tr>
+								<td class="table__feature">Страна:</td>
+								<td class="table__value">Чехия (Czech Republic)</td>
+							</tr>
+							<tr>
+								<td class="table__feature">ISO код страны:</td>
+								<td class="table__value">CZ</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Город:</td>
+								<td class="table__value">Прага (Prague)</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Код IATA: </td>
+								<td class="table__value">PRG</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Код ICAO (ИКАО)</td>
+								<td class="table__value">LKPR</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Часовой пояс:</td>
+								<td class="table__value">+1.0 GMT</td>
+							</tr>
+							<tr>
+								<td class="table__feature">ВПП (взлетно-посадочная полоса над уровнем моря):</td>
+								<td class="table__value">380 метров</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Широта:</td>
+								<td class="table__value">50°06′02″N</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Долгота:</td>
+								<td class="table__value">14°15′35″E</td>
+							</tr>
+						
+						</table>
+					</div>
+					<div class="airport">
+						<input class="toggle-box" id="identifier-5" type="checkbox">
+						<label for="identifier-5" class="table__name">Алматы (Алматы)</label>
+						<table class="info__table">
+							<tr>
+								<td class="table__feature">Страна:</td>
+								<td class="table__value">Казахстан (Kazakhstan)</td>
+							</tr>
+							<tr>
+								<td class="table__feature">ISO код страны:</td>
+								<td class="table__value">KZ</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Город:</td>
+								<td class="table__value">Алматы (Almaty)</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Код IATA: </td>
+								<td class="table__value">ALA</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Код ICAO (ИКАО)</td>
+								<td class="table__value">UAAA</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Часовой пояс:</td>
+								<td class="table__value">+6.0 GMT</td>
+							</tr>
+							<tr>
+								<td class="table__feature">ВПП (взлетно-посадочная полоса над уровнем моря):</td>
+								<td class="table__value">681 метров</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Широта:</td>
+								<td class="table__value">43°21′07″N</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Долгота:</td>
+								<td class="table__value">77°02′25″E</td>
+							</tr>
+						
+						</table>
+					</div>
+					<div class="airport">
+						<input class="toggle-box" id="identifier-6" type="checkbox">
+						<label for="identifier-6" class="table__name">Лос-Анджелес (Los Angeles)</label>
+						<table class="info__table">
+							<tr>
+								<td class="table__feature">Страна:</td>
+								<td class="table__value">США (United States)</td>
+							</tr>
+							<tr>
+								<td class="table__feature">ISO код страны:</td>
+								<td class="table__value">US</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Город:</td>
+								<td class="table__value">Лос-Анджелес (Los Angeles)</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Код IATA: </td>
+								<td class="table__value">LAX</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Код ICAO (ИКАО)</td>
+								<td class="table__value">KLAX</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Часовой пояс:</td>
+								<td class="table__value">-8.0 GMT</td>
+							</tr>
+							<tr>
+								<td class="table__feature">ВПП (взлетно-посадочная полоса над уровнем моря):</td>
+								<td class="table__value">38 метров</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Широта:</td>
+								<td class="table__value">33°56′33″N</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Долгота:</td>
+								<td class="table__value">118°24′25″W</td>
+							</tr>
+						
+						</table>
+					</div>
+					<div class="airport">
+						<input class="toggle-box" id="identifier-7" type="checkbox">
+						<label for="identifier-7" class="table__name">Сиена (Сиенна)</label>
+						<table class="info__table">
+							<tr>
+								<td class="table__feature">Страна:</td>
+								<td class="table__value">Италия (Italy)</td>
+							</tr>
+							<tr>
+								<td class="table__feature">ISO код страны:</td>
+								<td class="table__value">IT</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Город:</td>
+								<td class="table__value">Сиенна (Siena)</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Код IATA: </td>
+								<td class="table__value">SAY</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Код ICAO (ИКАО)</td>
+								<td class="table__value">LIQS</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Часовой пояс:</td>
+								<td class="table__value">+1.0 GMT</td>
+							</tr>
+							<tr>
+								<td class="table__feature">ВПП (взлетно-посадочная полоса над уровнем моря):</td>
+								<td class="table__value">193 метра</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Широта:</td>
+								<td class="table__value">43°15′22″N</td>
+							</tr>
+							<tr>
+								<td class="table__feature">Долгота:</td>
+								<td class="table__value">11°15′18″E</td>
+							</tr>
+						
+						</table>
+					</div>
+				</section>
+			</div>
+			<div class="theory__button">
+				<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 129.7 72.94" class="cloud__theory"><defs><style>.cls-1{fill:#fff;}.cls-2{font-size:21px;font-family:Consolas, Consolas;}</style></defs><title>Теория</title><g id="Слой_2" data-name="Слой 2"><g id="Слой_1-2" data-name="Слой 1-2"><path class="cls-1" d="M129.7,44c0-16-13.5-29-30.16-29a31.39,31.39,0,0,0-10.21,1.71,29.89,29.89,0,0,0-55.21,4,35.62,35.62,0,0,0-4-.23C13.5,20.41,0,32.18,0,46.7c0,14,12.52,25.42,28.32,26.3q.43,0,.87,0H100.5a5.77,5.77,0,0,0,1-.06C117.22,72,129.7,59.38,129.7,44Z" transform="translate(0 -0.07)"/></g></g><text class="cls-2" transform="translate(32.17 48.43)">Теория</text></svg>
+			</div>
+		</div>
+
+		<section class="task">
+			<section class="main-task main-task__big">
+				<div class="task-display task-display-second-task">
+					<div class="wrapper-input">
+						<div>
+							<label for="shirota_degree" class="task__label">Широта <span class="accent accent-sh"></label>
+							<div class="wrappper-input__little">
+								<span>
+									<input type="text" class="input-text input__little" name="shirota" id="shirota_degree" maxlength="2">
+									<label for="shirota_degree" class="label__little">°</label>
+								</span>
+								<span>
+									<input type="text" class="input-text input__little" name="shirota" id="shirota_minute" maxlength="2">
+									<label for="shirota_minute" class="label__little">'</label>
+								</span>
+								<span>
+									<input type="text" class="input-text input__little" name="shirota" id="shirota_seconds" maxlength="2">
+									<label for="shirota_seconds" class="label__little">"</label>
+								</span>
+								<span>
+									<input type="text" class="input-text input__little" name="shirota" id="shirota_dir" maxlength="1">
+								</span>
+							</div>
+						</div>
+						<div>
+							<label for="dolgota_degree" class="task__label">Долгота <span class="accent accent-dol"></label>
+							<div class="wrappper-input__little">
+								<span>
+									<input type="text" class="input-text input__little" name="dolgota" id="dolgota_degree" maxlength="3">
+									<label for="dolgota_degree" class="label__little">°</label>
+								</span>
+								<span>
+									<input type="text" class="input-text input__little" name="dolgota" id="dolgota_minute" maxlength="2">
+									<label for="dolgota_degree" class="label__little">'</label>
+								</span>
+								<span>
+									<input type="text" class="input-text input__little" name="dolgota" id="dolgota_seconds" maxlength="2">
+									<label for="dolgota_degree" class="label__little">"</label>
+								</span>
+								<span>
+									<input type="text" class="input-text input__little" name="dolgota" id="dolgota_dir" maxlength="1">
+								</span>
+							</div>
+						</div>
+						<div>
+							<label for="vpp" class="task__label">ВПП (в метрах) <span class="accent accent-vpp"></label>
+							<input type="text" class="input-text"  name="vpp" id="vpp">
+						</div>
+					</div>
+					<div class="wrapper-input">
+						<div>
+							<label for="iso" class="task__label">ISO код страны <span class="accent accent-iso"></label>
+							<input type="text" class="input-text" name="iso" id="iso" maxlength="2">
+						</div>
+						<div>
+							<label for="icao" class="task__label">Код ICAO <span class="accent accent-icao"></label>
+							<input type="text" class="input-text"  name="icao" id="icao" maxlength="4">
+						</div>
+						<div>
+							<label for="timeGMT" class="task__label">Часовый пояс <span class="accent accent-gmt"></label>
+							<input type="text" class="input-text"  name="timeGMT" id="timeGMT">
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<section class="task__menu">
+				<ul class="task__list">
+					<li class="task__item">
+						<a class="task__link" onclick="level2();">Проверить</a>
+					</li>
+					<li class="task__item">
+						<a class="task__link" onclick="answer2();">Ответ</a>
+					</li>
+					<li class="task__item">
+						<a href="level3.html" class="task__link disabled" id="next-level">Дальше</a>
+					</li>
+				</ul>
+			</section>
+
+			<section class="task__name_head">
+				<div class="task__wrapper">
+					<h3 class="task__headline">Цели:</h3>
+					<p>Ввести данные аэропорта Лос-Анджелес, в который будет вылет</p>
+					<ul class="task__headline--list">
+						<li class="task__headline--item"><span class="task__span">1</span>Широта</li>
+						<li class="task__headline--item"><span class="task__span">2</span>Долгота</li>
+						<li class="task__headline--item"><span class="task__span">3</span>ВПП (в метрах)</li>
+						<li class="task__headline--item"><span class="task__span">4</span>ISO код</li>
+						<li class="task__headline--item"><span class="task__span">5</span>ICAO код</li>
+						<li class="task__headline--item"><span class="task__span">6</span>Часовый пояс</li>
+					</ul>
+				</div>
+			</section>
+		</section>
+	</main>
+
+	<script src="js/main.js"></script>
+</body>
+</html>
